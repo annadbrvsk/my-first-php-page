@@ -1,2 +1,2 @@
-1;The Surprising Benefits of Journaling One Sentence Every Day;02.01.2022
-2;How Innovative Ideas Arise;04.01.2022
+0;"Title 1";"Body 1";04.01.2022
+1;"Title 2";"Body 2+1";04.01.2022;Submit
