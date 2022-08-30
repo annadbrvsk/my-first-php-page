@@ -10,9 +10,13 @@
     foreach ($articles as $article){
     ?>
     <tr>
-        <td><?php echo $article[0] ?></td>
-        <td><?php echo $article[1] ?></td>
-        <td><?php echo $article[3] ?></td>
+        <td><?php echo $article->getId() ?></td>
+        <td>
+        <a href="http://localhost:8080/edit.php?id=<?php echo $article->getId() ?>">
+            <?php echo $article->getTitle() ?>
+            </a>
+        </td>
+        <td><?php echo $article->getDate() ?></td>
     </tr>
     <?php } ?>
 </table>
